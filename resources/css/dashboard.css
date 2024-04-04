@@ -1,0 +1,65 @@
+nav {
+    border-bottom: 0.5px solid gray;
+    background-attachment: fixed;
+}
+
+section {
+    width: 100%;
+    height: 80vh;
+}
+
+.content {
+    padding: 5px;
+    position: relative;
+    width: fit-content;
+    height: 500px;
+    left: 300px;
+    top: -140px;
+    overflow-y: scroll;
+}
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.center {
+    width: 600px;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 0.5px 1px 5px 3px rgb(196, 195, 195);
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 0px 10px 0px;
+}
+.url_a {
+    width: 100%;
+    border-bottom: 0.1px solid rgb(168, 166, 166);
+    padding: 10px 20px 0 20px;
+}
+
+.url_a a {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.icon-list {
+    color: rgba(0, 177, 221, 0.695);
+}
+
+li {
+    list-style: none;
+    font-weight: bolder;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 3px 15px 5px 15px;
+    width: fit-content;
+}
+
+li:hover {
+    background-color: rgba(0, 177, 221, 0.695);
+    border-radius: 20px;
+}
+input {
+    margin-bottom: 5px;
+}
