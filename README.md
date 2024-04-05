@@ -3,8 +3,8 @@
 Clone the repo locally:
 
 ```sh
-git clone https://github.com/sumitram95/project-assign-to-staff.git
-cd project-assign-to-staff
+git clone https://github.com/sumitram95/password-manager.git
+cd password-manager
 ```
 
 Install PHP dependencies:
